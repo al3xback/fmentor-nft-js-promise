@@ -22,7 +22,7 @@ const createElement = (tag, className, text, attributes) => {
 const createHeaderEl = () => {
 	return new Promise((resolve, reject) => {
 		if (typeof createElement === 'undefined') {
-			reject('createElement is not defined!');
+			reject(new Error('createElement is not defined!'));
 		} else {
 			const headerEl = createElement('header');
 
@@ -38,7 +38,7 @@ const createHeaderEl = () => {
 const createCardEl = () => {
 	return new Promise((resolve, reject) => {
 		if (typeof createElement === 'undefined') {
-			reject('createElement is not defined!');
+			reject(new Error('createElement is not defined!'));
 		} else {
 			const cardEl = createElement('article', 'card');
 
@@ -154,7 +154,7 @@ const createCardEl = () => {
 const createMainEl = () => {
 	return new Promise((resolve, reject) => {
 		if (typeof createElement === 'undefined') {
-			reject('createElement is not defined!');
+			reject(new Error('createElement is not defined!'));
 		} else {
 			const mainEl = createElement('main');
 
@@ -174,7 +174,7 @@ const createMainEl = () => {
 const createFooterEl = () => {
 	return new Promise((resolve, reject) => {
 		if (typeof createElement === 'undefined') {
-			reject('createElement is not defined!');
+			reject(new Error('createElement is not defined!'));
 		} else {
 			const footerEl = createElement('footer');
 
