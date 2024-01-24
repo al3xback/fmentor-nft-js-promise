@@ -26,7 +26,7 @@ const createHeaderEl = () => {
 		} else {
 			const headerEl = createElement('header');
 
-			const headerTitleEl = createElement('h1', 'sr-only', 'NFT');
+			const headerTitleEl = createElement('h1', 'sr-only', 'NFT preview card component');
 
 			headerEl.appendChild(headerTitleEl);
 
