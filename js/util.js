@@ -53,7 +53,7 @@ const createCardEl = () => {
 
 			const cardImageEl = createElement('img', null, null, [
 				createElementAttribute('src', './images/equilibrium.jpg'),
-				createElementAttribute('alt', ''),
+				createElementAttribute('alt', 'Equilibrium'),
 				createElementAttribute('width', 302),
 				createElementAttribute('height', 302),
 			]);
